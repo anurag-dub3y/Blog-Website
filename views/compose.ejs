@@ -1,0 +1,23 @@
+<% var dir = process.cwd() %>
+<%- include(dir+"/views/partials/header") -%>
+
+<h2>COMPOSE</h2>
+<br>
+<form class="item" action="/compose" method="post">
+    
+    <label class="form-label">Title</label> <br>
+        <input type="text" class="form-control" name="input"></input>
+    <br> 
+    
+    <label class="form-label">Post</label> 
+        <textarea name="theContent" class="form-control" cols="30" rows="3"></textarea>
+    <br><br>
+    
+    <button class="btn btn-primary" type="submit">Publish</button>
+
+</form>
+<br><br>
+
+
+<%- include(dir+"/views/partials/footer") -%>
+

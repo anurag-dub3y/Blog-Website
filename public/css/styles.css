@@ -1,0 +1,79 @@
+html {
+    /* position: relative; */
+    min-height: 1000px;
+    font-family: 'helvetica neue';
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+body {
+    background-image: linear-gradient(white,grey);
+}
+
+#hedding{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+    justify-content: center;
+    margin: auto;
+    width: 25%;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    color: gray;
+    /* background-color: gray; */
+}
+
+#title{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#content{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+}
+
+nav{
+    font-size: 15px;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+}
+
+#signup{
+    width: auto;
+    border-radius: 30px;
+    color: gray;
+    /* background-color: gray; */
+}
+
+h1{
+    font-size: 50px;
+}
+
+p{
+    font-size: 15px;
+}
+
+.posts{
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 5px 0px 0px grey;
+}
+
+footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    /* color: white; */
+    /* background-color: gray; */
+}
+
+

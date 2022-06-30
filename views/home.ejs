@@ -1,0 +1,16 @@
+<% var dir = process.cwd() %>
+<%- include(dir+"/views/partials/header") -%>
+<h1>Home</h1>
+<p> <%=content%> </p>
+
+<br> <br>
+<% for(var i=data.length-1; i>=0; i--){  %>
+    <div class="posts">
+        <h2> <%=data[i].title%> </h2>
+        <p> <%=data[i].material.substring(0,50)+"..."%>
+            <a href="/post/<%=data[i].title%>">Read more</a>
+        </p>
+        <br> <br>
+    </div>
+<% } %>
+<%- include(dir+"/views/partials/footer") -%>
